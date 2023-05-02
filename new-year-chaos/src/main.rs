@@ -10,7 +10,7 @@ fn minimum_bribes(q: &[i32]) {
         let mut count2 = count;
         while count2 < q.len() {
             if q[count2] < q[count] {
-                // pivot += 1
+                pivot += 1
             }
             count2+=1;
         }
